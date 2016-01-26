@@ -1,0 +1,11 @@
+{
+  "providers": [
+    "Rezadaulay\JqUpload\JqUploadServiceProvider"
+  ],
+  "aliases": [
+    {
+      "alias": "JqUpload",
+      "facade": "Rezadaulay\JqUpload\Facades\JqUpload"
+    }
+  ]
+}
