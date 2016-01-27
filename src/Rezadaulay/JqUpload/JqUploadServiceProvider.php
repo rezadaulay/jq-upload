@@ -1,9 +1,8 @@
 <?php 
 
 namespace Rezadaulay\JqUpload;
-
+use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
-
 class JqUploadServiceProvider extends ServiceProvider {
 
 	/**
@@ -20,7 +19,7 @@ class JqUploadServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('masbro-web/jq-upload');
+		//$this->package('Rezadaulay\JqUpload');
 	}
 
 	/**
@@ -48,7 +47,7 @@ class JqUploadServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array('jq-upload');
+		return array('JqUpload');
 	}
 
 }
