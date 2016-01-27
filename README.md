@@ -14,3 +14,15 @@ in the `providers` array and
     'JqUpload'	=> Rezadaulay\JqUpload\Facades\JqUpload::class
 ```
 to the `aliases` array.
+
+## Usage
+It's easy
+```
+JqUpload::init($config);
+```
+Example
+```
+JqUpload::init([
+    'access_control_allow_origin' => false
+    ]);
+```
